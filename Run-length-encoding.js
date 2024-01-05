@@ -43,3 +43,9 @@ function runLengthEncoding(str) {
 }
 
 // or
+
+let runLengthEncoding = function(str){
+  return (str.match(/(.)\1*/g) || []).reduce(function(r, s){
+    return r.push([s.length, s[0]]), r;
+  }, []);
+}
