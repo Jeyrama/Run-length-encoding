@@ -22,3 +22,6 @@ It's very effective if the same data value occurs in many consecutive data eleme
   runLengthEncoding("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbb")
   // => [[34,'a'], [3,'b']]
 */
+
+
+// Solution
