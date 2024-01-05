@@ -41,3 +41,5 @@ function runLengthEncoding(str) {
 
   return arr;
 }
+
+// or
